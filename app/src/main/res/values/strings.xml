@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SUNSHINE</string>
+    <string name="nombre">Nombre de usuario</string>
+    <string name="repita_contraseña">Repita contraseña</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="Introduzcasusdatos">Introduzca sus datos</string>
+    <string name="Empezar">Empezar</string>
+    <string name="Registrese">Registrarse</string>
+    <string name="Registrate">Registrate</string>
+    <string name="comparte">Comparte</string>
+</resources>

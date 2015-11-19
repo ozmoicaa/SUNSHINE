@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nombre">Nombre de usuario</string>
+    <string name="repita_contraseña">Repita contraseña</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="Introduzcasusdatos">Introduzca sus datos</string>
+    <string name="Empezar">Empezar</string>
+    <string name="Registrate">Registrate</string>
+    <string name="comparte">Comparte</string>
+</resources>

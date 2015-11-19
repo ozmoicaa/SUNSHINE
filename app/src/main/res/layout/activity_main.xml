@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:background="@color/background_fondo" tools:context=".MainActivity">
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Empezar"
+        android:textColor="@color/boton"
+        android:layout_alignParentBottom="true"
+        android:padding="10dp"
+        android:background="@color/background_boton"
+        android:id="@+id/button_ejemplo"  />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="@string/Introduzcasusdatos"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:id="@+id/titulo"
+        android:textColor="@color/titulo_login_color"
+        android:layout_centerHorizontal="true"
+        style="@style/barraslogin"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/altocuadros"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/nombre"
+        android:hint="@string/nombre"
+        android:textSize="18dp"
+        android:textColor="@color/nombredeusuariocolor"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/fondo_cuadroslogin" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/altocuadros"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="@string/contraseña"
+        android:inputType="textPassword"
+        android:id="@+id/contraseña1"
+        android:textSize="18dp"
+        android:textColor="@color/nombredeusuariocolor"
+        android:layout_marginTop="250dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/fondo_cuadroslogin"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/altocuadros"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="@string/repita_contraseña"
+        android:inputType="textPassword"
+        android:textSize="18sp"
+        android:textColor="@color/nombredeusuariocolor"
+        android:layout_marginTop="300dp"
+        android:id="@+id/contraseña2"
+        android:layout_centerHorizontal="true"
+        android:background="@color/fondo_cuadroslogin" />
+    <ImageView
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:background="@mipmap/sun_weather_13170"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Registrate"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="70dp"
+        android:background="@color/boton_registrarse"
+        android:textColor="@color/boton"
+        android:id="@+id/boton_registrarse"/>
+    <Button
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:text="@string/comparte"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="70dp"
+        android:layout_alignParentRight="true"
+        android:background="@color/boton_registrarse"
+        android:textColor="@color/boton"
+        android:id="@+id/boton_registrarse"/>
+
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+

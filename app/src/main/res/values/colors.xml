@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="background_boton">#091ebc</color>
+    <color name="background_fondo">#ffffff</color>
+    <color name="background_reloj">#11ea15</color>
+    <color name="background_background_boton">#091ebc</color>
+    <color name="titulo_login_color">#000000</color>
+    <color name="fondo_nombredeusuario">#ffe9e9</color>
+    <color name="nombredeusuariocolor">#000000</color>
+    <color name="boton">#FFFFFF</color>
+    <color name="fondo_cuadroslogin">#75ada9b6</color>
+    <color name="boton_registrarse">#8d077afd</color>
+</resources>
